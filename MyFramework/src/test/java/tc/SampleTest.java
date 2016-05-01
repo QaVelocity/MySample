@@ -11,7 +11,9 @@ public class SampleTest {
 	}
 	
 	@DataProvider
-	Object[][] myFunction(){
+	Object[][] myFunction(String sheetName){
+		//Object[][] =getDataAsArray(sheetName);
+		
 		Object[][] dt = new Object[2][3];
 		// 1st Row
 		dt[0][0] = "User1";
